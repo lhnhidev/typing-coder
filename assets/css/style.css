@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@keyframes blink {
+    form {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.right-click {
+    color: #FF5C59;
+    font-weight: 700;
+    opacity: 1 !important;
+}
+
+.wrapper {
+    font-family: "Roboto Mono", monospace;
+}
+
+.wrapper__display {
+    text-align: center;    
+}
+
+.wrapper__ans {
+    padding: 80px 20px 100px 20px;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    margin-top: 30px;
+    font-size: 5.2rem;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.wrapper__char {
+    display: inline-block;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.char {
+    display: block;
+}
+
+.underline {
+    display: none;
+    margin-top: -8px;
+    border: 5px solid #ff9594;
+    animation: var(--animation-blink, blink linear 0.8s infinite);
+}
+
+.wrapper__ans-next {
+    padding: 35px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.wrapper__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .7;
+}
+
+.wrapper__title {
+    display: inline;
+    margin-right: 30px;
+}
+
+.wrapper__text-next {
+    display: inline;
+    font-size: 2.3rem;
+}
+
+.footer__para {
+    font-size: 1.4rem;
+}
+
+.cursor {
+    animation: blink 1s infinite;
+}
+
+.footer__para {
+    width: 100%;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    line-height: 1.8;
+    text-align: center;
+}
+
+#para, #dot {
+    color: #6b6b6b;
+}
